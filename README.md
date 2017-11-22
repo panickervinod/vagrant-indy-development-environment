@@ -1,3 +1,4 @@
+
 # Vagrant automated VM for Indy development
 
 This repo documents how was created the image panickervinod/ubuntu-16.04-desktop-development
@@ -17,3 +18,4 @@ If you want to generate a new image based on this one:
   -  clone this repo
   -  vagrant plugin install vagrant-reload
   -  vagrant up
+=======
