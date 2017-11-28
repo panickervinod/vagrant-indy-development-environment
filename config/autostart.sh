@@ -42,31 +42,8 @@ if [ $DISPLAY == ":0" ] ; then
 	#		touch $repo
 	#	fi 	fi
 	#
-	#if [ -f "$vibase/vagrant-qa-hbg/imageupdate.sh" ] ; then
-	#	bash $vibase/vagrant-qa-hbg/imageupdate.sh
+	#if [ -f "$vibase/vagrant-indy-development-environment/imageupdate.sh" ] ; then
+	#	bash $vibase/vagrant-indy-development-environment/imageupdate.sh
 	#fi
 
 fi
-
-
-#Maven
-#no need if installed by apt-get
-#export MAVEN_HOME=/opt/apache-maven-3.2.5
-#export PATH=${PATH}:/opt/apache-maven-3.2.5/bin;
-
-# export MAVEN_OPTS=" -Djava.awt.headless=true "
-
-#ANT
-#no need if installed by apt-get
-#export ANT_HOME=/opt/ant
-#export PATH=${PATH}:/opt/ant/bin:
-
-#sonar
-#export PATH=${PATH}:/opt/sonar-runner-2.4/bin:
-
-#Groovy
-#no need if installed by apt-get
-#export GROOVY_HOME=/opt/groovy
-#export PATH=${PATH}:/opt/groovy/bin/:
-
-#mvn archetype:generate -DarchetypeGroupId=ru.stqa.selenium -DarchetypeArtifactId=webdriver-testng-archetype -DarchetypeVersion=3.0 -DgroupId=com.hotelbeds -DartifactId=test
