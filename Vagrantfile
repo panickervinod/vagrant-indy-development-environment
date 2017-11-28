@@ -90,7 +90,7 @@ Vagrant.configure("2") do |config|
 	apt-get install `check-language-support -l en`
 
   #TODO add other required packages here.
-  apt-get install -y git
+  apt-get install -y git unzip
 
 	#HOME
 	cd /home/vagrant

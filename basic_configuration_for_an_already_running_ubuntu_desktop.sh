@@ -12,7 +12,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
 
 #TODO add other required packages
-apt-get install -y git
+apt-get install -y git unzip
 
 #HOME
 cd /home/vagrant
