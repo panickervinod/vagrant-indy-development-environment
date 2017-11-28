@@ -18,6 +18,10 @@ apt-get install -y git unzip
 cd /home/vagrant
 
 #User configs
+#To prevent master.zip.1 getting created
+if [ -f master.zip ]; then
+    rm master.zip
+fi
 #wget to solve cr/lf when host is not the linux
 wget --quiet https://github.com/panickervinod/vagrant-indy-development-environment/archive/master.zip
 unzip master

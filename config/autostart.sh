@@ -1,6 +1,6 @@
 #!/bin/bash
 
-setxkbmap en
+setxkbmap us
 
 if [ $DISPLAY == ":0" ] ; then
 	#run only in X session
