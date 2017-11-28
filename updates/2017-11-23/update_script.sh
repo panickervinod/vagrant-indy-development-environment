@@ -13,3 +13,5 @@ SCRIPTPATH=`dirname $SCRIPT`
 
 sudo bash $SCRIPTPATH/install_node.sh
 sudo bash $SCRIPTPATH/install_rust.sh
+
+exit $?
