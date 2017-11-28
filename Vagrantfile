@@ -97,6 +97,10 @@ Vagrant.configure("2") do |config|
 
   #User configs
   #wget to solve cr/lf when host is not the linux
+  #To prevent master.zip.1 getting created
+  if [ -f $f/master.zip ]; then
+      rm master.zip
+  fi
   wget --quiet https://github.com/panickervinod/vagrant-indy-development-environment/archive/master.zip
   unzip master
   cp -vr vagrant-indy-development-environment-master/config/* .
