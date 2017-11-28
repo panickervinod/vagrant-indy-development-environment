@@ -1,3 +1,3 @@
-sudo add-apt-repository ppa:webupd8team/atom
+sudo add-apt-repository ppa:webupd8team/atom -y
 
-sudo apt update; sudo apt install atom
+sudo apt update; sudo apt-get install -y atom

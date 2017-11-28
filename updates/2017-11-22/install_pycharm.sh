@@ -1,3 +1,3 @@
-sudo add-apt-repository ppa:mystic-mirage/pycharm
+sudo add-apt-repository ppa:mystic-mirage/pycharm -y
 
-sudo apt update; sudo apt install pycharm-community
+sudo apt update; sudo apt-get install -y pycharm-community
